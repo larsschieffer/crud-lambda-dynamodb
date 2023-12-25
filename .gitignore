@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+
+# TypeScript build output
+dist/
+**.build/
+
+# Serverless Framework artifacts
+.arc/
+.sam/
+
+# Build
+sam.json
+
+# AWS Lambda deployment artifacts
+/tmp/
+/cloudformation-template-update-stack.json
+
+# Environment variables file
+.env
+
+# Testing artifacts
+__tests__/
+coverage/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
